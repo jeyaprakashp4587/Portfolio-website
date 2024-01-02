@@ -1,0 +1,21 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.App {
+  width: 100vw;
+  height: auto;
+}
+.bg-wrapper {
+  background: var(
+    --pp3-background,
+    linear-gradient(113deg, #984d38 -30.3%, #181e41 58.12%)
+  );
+}

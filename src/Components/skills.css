@@ -1,0 +1,39 @@
+/** @format */
+
+.skills-wrapper {
+  width: 100%;
+  height: 130px;
+  background: #000;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+}
+.skills i {
+  font-size: 3rem;
+}
+.animation-icon {
+  animation: icon infinite 2s ease-in;
+}
+@keyframes icon {
+  0% {
+    margin-top: 3%;
+    transition: 1s ease;
+  }
+  50% {
+    margin: 0;
+    transition: 1s ease;
+  }
+  100% {
+    margin-top: 3%;
+    transition: 1s ease;
+  }
+}
+/*  */
+@media only screen and (max-width:500px) {
+  .skills i{
+    font-size: 2.4rem;
+  }
+}
